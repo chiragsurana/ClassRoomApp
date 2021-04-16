@@ -1,0 +1,83 @@
+.classComponent_img {
+    z-index: -1;
+    height:80px;
+    
+   
+}
+.classComponent{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 25px 10px;
+    display: flex;
+    flex-direction: column;
+     width:200px;
+
+}
+.classComponent_middle{
+   margin-top: -60px;
+   
+ 
+    
+}
+ .classComponent_middleText  {
+   display: block;
+    
+}
+.classComponent_middleText >h4  ,
+.classComponent_middleText >h5 
+{
+    margin-bottom: 0;
+}
+ 
+ 
+.avatar {
+    font-size: larger;
+ 
+  margin-left:75%;
+}
+.classComponent_footer {
+    border-top: 0.5px gray solid ;
+    padding: 2px;
+}
+.classComponent_delete {
+     border: none;
+     
+}
+.classComponent_middleText > p {
+    margin-top:-20px;
+}
+.classComponent_middle {
+    height:160px;
+}
+.classComponent_footer {
+    height:30px;
+    position: relative;
+  
+}
+.classComponent_footer >span {
+    background-color: gray;
+    margin-right: 1px;
+    color: white;
+    padding:2px;
+}
+.tooltip_delete {
+     position: absolute;
+    margin-left:40%;
+    margin-top:-3%;
+}
+  .classComponent_delete:hover  >.tooltip_delete{
+ visibility: none;
+}  
+.tooltip_class , .tooltip_folder {
+  
+    margin-top:-3%;
+}
+.classComponent_delete :hover {
+    color:red;
+    cursor: pointer;
+}
+.classComponent {
+    display: flex;
+ 
+}
+ 

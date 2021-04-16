@@ -1,0 +1,31 @@
+.sidenav {
+    background-color: white;
+    width:200px;
+    height:  80vh;
+   
+    position: absolute;
+    top:70px;
+    left:  0px;
+    z-index: 100;
+    border: 1px solid black;
+}
+.sidenotnav {
+    background-color: white;
+    width:200px;
+    height:  80vh;
+   
+    position: absolute;
+    top: 70px; 
+    left:  -190px;
+    z-index: 100;
+    border: none;
+
+ 
+}
+.arrow {
+    margin-left:181px;
+  
+}
+.arrow :hover {
+    cursor: pointer;
+}

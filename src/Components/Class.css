@@ -1,0 +1,70 @@
+.class_enrolled {
+    
+ 
+  width: 1000px;
+    margin-left: 20px;
+ 
+ overflow: auto;
+z-index: -11;
+    position: absolute;
+    top:150px;
+ 
+}
+.class_available{
+position: relative;
+}
+.class {
+    margin-left: 20px;
+}
+.class_button {
+    margin-left: 40%;
+     border-radius: 2%;
+
+    padding: 5px;
+}
+.class_form{
+    z-index: 5;
+    opacity: 11;
+    padding:50px 100px;
+    border: 1px black solid;
+    margin:0 50px;
+    -moz-box-shadow:    10px 10px 50px 60px   #ccc;
+  -webkit-box-shadow: 10px 10px 50px 60px   #ccc;
+  box-shadow:         10px 10px 50px 60px   #ccc;
+  background-color: white;
+
+}
+input[type=text]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+   
+   .green{
+       background-color: green;
+
+   }
+   .white{
+       background-color: white;
+       color: black;
+       border:1px solid black;
+
+   }
+   .class_formNone {
+       display: none;
+   }
+
+   .class_right {
+       margin-left: 30px;
+   }
+  
+   .class_header {
+       display: flex;
+   }
+   .class_available >h1 {
+       margin-left: 30%;
+   }
