@@ -1,0 +1,46 @@
+#example-collapse-text {
+    height:10vh;
+    display: flex;
+  padding :0 5%;
+    border:1px solid black;
+    width:60%;
+    position: relative;
+}
+#example-collapse-text > h5 {
+ 
+position: absolute;
+right: 100px;
+
+}
+.items_icons {
+    position:absolute;
+    right:-10px;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-small;
+    transform: scale(0.8);
+    padding: 0px;
+}
+.items_icons >button   {
+    border:none;
+    background: transparent;
+}
+.items_icons_delete :hover {
+    color:red;
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+.items_icons_class:hover {
+    color:green;
+    transition: 0.2s all ease-in;
+    cursor:pointer;
+}
+.items_icons_folder :hover{
+    color:blue;
+    transition: 0.2s all ease-in;
+    cursor:pointer;
+}
+textarea{
+    border:none;
+outline-width: 0px;
+}
