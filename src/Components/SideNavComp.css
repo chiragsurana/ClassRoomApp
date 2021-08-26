@@ -1,0 +1,16 @@
+.NavComp {
+    height:20vh;
+  
+    display: flex;
+    flex-direction: column;
+} 
+.avatarrr {
+    position:absolute;
+    right: 0;
+    top: -8vh;
+    z-index: 1000000;
+}
+.instructor {
+    position: absolute;
+    top:10vh;
+}

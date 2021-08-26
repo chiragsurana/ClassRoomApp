@@ -8,12 +8,14 @@
     left:  0px;
     z-index: 100;
     border: 1px solid black;
+    position:fixed;
+    transition: 0.5s ease-in;
 }
 .sidenotnav {
     background-color: white;
-    width:200px;
+    width:0;
     height:  80vh;
-   
+   transition:0.5s ease-out;
     position: absolute;
     top: 70px; 
     left:  -190px;
@@ -22,10 +24,33 @@
 
  
 }
+.left{
+    
+    background: transparent;
+    border:none;
+
+}
+.right{
+    
+    background: transparent;
+    border:none;
+}
 .arrow {
     margin-left:181px;
   
 }
 .arrow :hover {
     cursor: pointer;
+}
+.sideNavComp {
+    position:absolute;
+  height:60vh;   
+    left:  0px;
+    width:18.5vw;
+    overflow:auto;
+}
+.sidenotNavComp {
+    position: absolute;
+    
+    left:  -190px;
 }
