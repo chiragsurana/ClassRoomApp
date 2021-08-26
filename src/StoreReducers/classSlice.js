@@ -3,29 +3,44 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   items:   [
          {
-           title :"process",
-           instructor :"the ",
-           id :  Math.random()*1000000000
+           title :"Machine Learning",
+           instructor :"Rofl",
+           id :  Math.random()*1000000000,
+           start_time : "16.30",
+           end_time :"17.30",
+           description:""
          },
          {
-          title :"process",
-          instructor :"the ",
-          id :  Math.random()*1000000000
+          title :"Data Science",
+          instructor :"Lendl",
+          id :  Math.random()*1000000000,
+          start_time : "10.30",
+          end_time :"11.30",
+          description:""
         },
         {
-          title :"process",
-          instructor :"the ",
-          id :  Math.random()*1000000000
+          title :"Internet Of Things",
+          instructor :"Migrane",
+          id :  Math.random()*1000000000,
+          start_time : "8.30",
+          end_time :"9.30",
+          description:""
         },
         {
-          title :"process",
-          instructor :"the ",
-          id :  Math.random()*1000000000
+          title :"Computational Mechanics",
+          instructor :"NOtch",
+          id :  Math.random()*1000000000,
+          start_time : "11.30",
+          end_time :"12.30",
+          description:""
         },
         {
-          title :"process",
-          instructor :"the ",
-          id :  Math.random()*1000000000
+          title :"Electrodynamics",
+          instructor :"yera",
+          id :  Math.random()*1000000000,
+          start_time : "12:30",
+          end_time :"13:30",
+          description:"",
         },
          
                     
