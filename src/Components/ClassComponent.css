@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
      width:200px;
+     height:200px;
 
 }
 .classComponent_middle{
@@ -75,9 +76,5 @@
 .classComponent_delete :hover {
     color:red;
     cursor: pointer;
-}
-.classComponent {
-    display: flex;
- 
 }
  
